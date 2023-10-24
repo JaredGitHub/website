@@ -1,0 +1,90 @@
+body
+{
+    background: #1f2b34;
+    font-family: Teko, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 250%;
+}
+
+ul{
+
+    font-weight: bold;
+    font-size: 200%;
+}
+
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: green;
+  }
+  
+/*Class for back to main page link */
+.back{
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 200%;
+}
+
+
+h1{
+
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+
+    font-size: 500%;
+}
+
+h2{
+    font-size: 500%; 
+}
+
+
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;;
+
+}
+.jaredface
+{
+    display:block;
+    float: right;
+}
+
+div img
+{
+    float: none;
+    align-items: center;
+    
+}
+
+p.jared{
+    font-size: 500%;
+}
+
+.spin{transition: transform 2s;}
+.spin:hover {transform: rotate(360deg)}
+
+.box
+{
+    display: flex;
+    flex-direction: row;
+}

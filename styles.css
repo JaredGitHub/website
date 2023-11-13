@@ -1,24 +1,23 @@
-body
-{
+body {
     background: #1f2b34;
-    font-family: Teko, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Teko, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
 
-}
-
-p{
+  
+  p {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
     font-size: 250%;
-}
-
-ul{
-
+  }
+  
+  ul {
     font-weight: bold;
     font-size: 200%;
-}
-
-a:link {
+  }
+  
+  a:link {
     color: black;
   }
   
@@ -32,59 +31,65 @@ a:link {
     color: green;
   }
   
-/*Class for back to main page link */
-.back{
-
+  /*Class for back to main page link */
+  .back {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-
+  
     font-size: 200%;
-}
-
-
-h1{
-
+  }
+  
+  h1 {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-
+  
     font-size: 500%;
-}
-
-h2{
-    font-size: 500%; 
-}
-
-
-img{
-    display:block;
+  }
+  
+  h2 {
+    font-size: 500%;
+  }
+  
+  img {
+    display: block;
     margin-left: auto;
-    margin-right: auto;;
-
-}
-.jaredface
-{
-    display:block;
+    margin-right: auto;
+  }
+  
+  .contactimages img
+  {
+    display: inline-block;
+  }
+  .contactimages
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  #jaredface {
+    display: block;
     float: right;
-}
-
-div img
-{
-    float: none;
-    align-items: center;
-    
-}
-
-p.jared{
+    height: 100vh;
+  }
+  
+  #jared {
     font-size: 500%;
-}
-
-.spin{transition: transform 2s;}
-.spin:hover {transform: rotate(360deg)}
-
-.box
-{
+  }
+  
+  .spin {
+    transition: transform 0.5s;
+  }
+  .spin:hover {
+    transform: rotate(180deg);
+  }
+  
+  .container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-}
+    margin: 10px;
+  }

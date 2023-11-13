@@ -10,7 +10,7 @@ function keyPress(event)
       img.src = "https://www.hollywoodreporter.com/wp-content/uploads/2022/05/Musk-2.jpg?w=2000&h=1126&crop=1";
       document.body.appendChild(img);
 
-      let audio = new Audio("../audio/demon.mp3");
+      let audio = new Audio("website/audio/demon.mp3");
       audio.play();
 
       img.style.position = "fixed";
@@ -30,7 +30,7 @@ function explodeOnClick(event) {
   let explosion = document.getElementsByClassName("explosion");
 
   let img = new Image();
-  let audio = new Audio("../audio/explosion.mp3");
+  let audio = new Audio("website/audio/explosion.mp3");
   audio.play();
 
   img.src = "https://media.tenor.com/j-ixpElDGOYAAAAi/explode-boom.gif";

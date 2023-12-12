@@ -1,7 +1,10 @@
 body {
-    background: #1f2b34;
+    background-color: #1f2b34;
     font-family: Teko, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    
+    margin: 0;
+    padding: 0;
   }
 
   
@@ -10,11 +13,13 @@ body {
     margin-right: auto;
     margin-left: auto;
     font-size: 250%;
+    color: black;
   }
   
   ul {
     font-weight: bold;
     font-size: 200%;
+    color: black;
   }
   
   a:link {
@@ -46,10 +51,12 @@ body {
     margin-left: auto;
   
     font-size: 500%;
+    color: black;
   }
   
   h2 {
     font-size: 500%;
+    color: black;
   }
   
   img {
@@ -93,3 +100,30 @@ body {
     flex-direction: row;
     margin: 10px;
   }
+
+  .form-check
+  {
+    color:black;
+    font-size: 200%;
+  }
+
+  .nav-link:hover
+  {
+    color:green;
+  }
+
+  .nav-link
+  {
+    font-size: 250%;
+  }
+  .form-control
+  {
+    font-size: 200%;
+  }
+
+  .col-form-label
+  {
+    color: blue;
+    font-size: 500%;
+  }
+

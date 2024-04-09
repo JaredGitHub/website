@@ -95,10 +95,10 @@ body {
   
   #jared {
     position: fixed;
-    top: 0;
-    left: 625px;
+    top:0;
+    left: 80%;
+    margin-left: -37.5%;
     font-size: 400%;
-    text-align: center;
   }
   
   .spin {
